@@ -1,8 +1,7 @@
 {
-    "name": "laravelium/sitemap",
-    "description": "Laravelium Sitemap package for Laravel.",
-    "homepage": "https://laravelium.com",
-    "keywords": ["laravelium", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
+    "name": "victorbuild/sitemap",
+    "description": "Original Laravelium Sitemap package for Laravel9 and PHP8",
+    "keywords": ["laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [
         {
@@ -10,33 +9,39 @@
             "email": "r@alfamatter.com",
             "role": "Developer",
             "homepage": "https://darumen.com"
+        },
+        {
+            "name": "Victor",
+            "email": "",
+            "role": "Developer",
+            "homepage": ""
         }
     ],
     "support": {
-        "issues": "https://github.com/Laravelium/laravel-sitemap/issues",
-        "source": "https://github.com/Laravelium/laravel-sitemap",
-        "wiki": "https://github.com/Laravelium/laravel-sitemap/wiki"
+        "issues": "https://github.com/victorbuild/laravel-sitemap/issues",
+        "source": "https://github.com/victorbuild/laravel-sitemap",
+        "wiki": "https://github.com/victorbuild/laravel-sitemap/wiki"
     },
     "require": {
-        "php": ">=7.3",
-        "illuminate/support": "^8.0",
-        "illuminate/filesystem": "^8.0"
+        "php": "^8.0",
+        "illuminate/support": "^9.0",
+        "illuminate/filesystem": "^9.0"
     },
     "require-dev": {
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^9.0",
         "phpunit/phpunit": "^9.3",
-        "orchestra/testbench-core": "^6.0",
+        "orchestra/testbench-core": "^6.0 || ^7.0",
         "php-coveralls/php-coveralls" : "^2.2"
     },
     "autoload": {
         "psr-0": {
-            "Laravelium\\Sitemap": "src/"
+            "Victorbuild\\Sitemap": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laravelium\\Sitemap\\SitemapServiceProvider"
+                "Victorbuild\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },

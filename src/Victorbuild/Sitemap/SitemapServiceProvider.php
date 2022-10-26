@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravelium\Sitemap;
+namespace Victorbuild\Sitemap;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Support\DeferrableProvider;

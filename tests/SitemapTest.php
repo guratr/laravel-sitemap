@@ -1,10 +1,10 @@
 <?php
 
-namespace Laravelium\Sitemap\Test;
+namespace Victorbuild\Sitemap\Test;
 
-use Laravelium\Sitemap\Sitemap;
+use Victorbuild\Sitemap\Sitemap;
 use Orchestra\Testbench\TestCase;
-use Laravelium\Sitemap\SitemapServiceProvider;
+use Victorbuild\Sitemap\SitemapServiceProvider;
 
 class SitemapTest extends TestCase
 {

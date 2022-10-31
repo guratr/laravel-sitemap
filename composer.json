@@ -1,6 +1,6 @@
 {
     "name": "victorbuild/sitemap",
-    "description": "Original Laravelium Sitemap package for Laravel9 and PHP8",
+    "description": "sitemap package for Laravel9 and PHP8",
     "keywords": ["laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [

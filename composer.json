@@ -1,6 +1,6 @@
 {
     "name": "victorbuild/sitemap",
-    "description": "sitemap package for Laravel9 and PHP8",
+    "description": "sitemap package for Laravel10 and PHP8",
     "keywords": ["laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
     "license": "MIT",
     "authors": [
@@ -24,11 +24,11 @@
     },
     "require": {
         "php": "^8.0",
-        "illuminate/support": "^9.0",
-        "illuminate/filesystem": "^9.0"
+        "illuminate/support": "^10.0",
+        "illuminate/filesystem": "^10.0"
     },
     "require-dev": {
-        "laravel/framework": "^9.0",
+        "laravel/framework": "^10.0",
         "phpunit/phpunit": "^9.3",
         "orchestra/testbench-core": "^6.0 || ^7.0",
         "php-coveralls/php-coveralls" : "^2.2"

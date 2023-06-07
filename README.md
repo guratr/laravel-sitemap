@@ -2,7 +2,7 @@
 
 [![PHP tests](https://github.com/victorbuild/laravel-sitemap/workflows/PHP%20tests/badge.svg?branch=master)](https://github.com//victorbuild/laravel-sitemap/actions?query=workflow%3A%22PHP+tests%22) [![Maintainability](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/maintainability)](https://codeclimate.com/github/victorbuild/laravel-sitemap/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/test_coverage)](https://codeclimate.com/github/victorbuild/laravel-sitemap/test_coverage) [![Style Status](https://github.styleci.io/repos/10392044/shield?style=normal&branch=master)](https://github.styleci.io/repos/10392044) [![Latest Stable Version](https://poser.pugx.org/victorbuild/sitemap/v/stable)](https://packagist.org/packages/victorbuild/sitemap) [![Total Downloads](https://poser.pugx.org/victorbuild/sitemap/downloads)](https://packagist.org/packages/victorbuild/sitemap)
 
-*Sitemap generator for Laravel9.*
+*Sitemap generator for Laravel10.*
 
 ## Notes
 
@@ -17,6 +17,15 @@ composer require victorbuild/sitemap
 ```
 
 *or add the following to your `composer.json` file :*
+
+#### For Laravel 10
+```json
+"victorbuild/sitemap": "10.*"
+```
+(development branch)
+```json
+"victorbuild/sitemap": "10.x-dev"
+```
 
 #### For Laravel 9
 ```json

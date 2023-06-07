@@ -158,7 +158,6 @@ class Sitemap
      */
     public function addItem($params = [])
     {
-
         // if is multidimensional
         if (array_key_exists(1, $params)) {
             foreach ($params as $a) {

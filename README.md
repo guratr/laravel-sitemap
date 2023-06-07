@@ -9,7 +9,7 @@
 [![Total Downloads](https://poser.pugx.org/victorbuild/sitemap/downloads)](https://packagist.org/packages/victorbuild/sitemap)
 [![PHP Version Require](https://poser.pugx.org/victorbuild/sitemap/require/php)](https://packagist.org/packages/victorbuild/sitemap)
 
-*Sitemap generator for Laravel9.*
+*Sitemap generator for Laravel10.*
 
 ## Notes
 
@@ -24,6 +24,15 @@ composer require victorbuild/sitemap
 ```
 
 *or add the following to your `composer.json` file :*
+
+#### For Laravel 10
+```json
+"victorbuild/sitemap": "10.*"
+```
+(development branch)
+```json
+"victorbuild/sitemap": "10.x-dev"
+```
 
 #### For Laravel 9
 ```json

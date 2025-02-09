@@ -12,7 +12,6 @@ namespace Victorbuild\Sitemap;
  * @license http://opensource.org/licenses/mit-license.php MIT License
  */
 
-use Illuminate\Filesystem\Filesystem as Filesystem;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
 use Illuminate\Contracts\Config\Repository as ConfigRepository;
@@ -41,11 +40,7 @@ class Sitemap
      */
     protected $configRepository = null;
 
-    /**
-     * Filesystem instance.
-     *
-     * @var Filesystem
-     */
+
     protected $file = null;
 
     /**
@@ -68,7 +63,7 @@ class Sitemap
      *
      * @param array $config
      */
-    public function __construct(array $config, CacheRepository $cache, ConfigRepository $configRepository, Filesystem $file, ResponseFactory $response, ViewFactory $view)
+    public function __construct(array $config, CacheRepository $cache, ConfigRepository $configRepository, $file, ResponseFactory $response, ViewFactory $view)
     {
         $this->cache = $cache;
         $this->configRepository = $configRepository;
